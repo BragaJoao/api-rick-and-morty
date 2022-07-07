@@ -2,14 +2,14 @@ const mongoose = require('mongoose');
 
 const CharacterSchema = new mongoose.Schema({
     name: {
-        type: string,
+        type: String,
         required: true
     },
     image: {
-        type: string,
+        type: String,
         required: true
     }
-})
+});
 
 const Character = mongoose.model("Character", CharacterSchema, "characters")
 
