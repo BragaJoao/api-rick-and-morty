@@ -7,7 +7,7 @@ const readAllCharactersUrlController = async (req, res) => {
       .status(400)
       .send({ message: "There is no character registered!" });
   }
-  res.send(characters);
+  res.status(200).send(characters);
 };
 
 const readCharacterByIdUrlController = async (req, res) => {
