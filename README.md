@@ -5,10 +5,10 @@
 ### Pré-requisitos
 
 IDE Visual Studio Code
-Node.js
-Express
-MONGOOSE
-Nodemon
+Node.js,
+Express,
+MONGOOSE,
+Nodemon,
 EJS
 
 
